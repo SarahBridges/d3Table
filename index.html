@@ -2,6 +2,12 @@
   <head>
     <meta charset="utf-8">
     <script type="text/javascript" src="https://d3js.org/d3.v5.js">
+          var table = d3.select("body").append("table");
+    var rows = table.selectAll("tr").data(build).enter().append("tr");
+    rows.append("td").text(function(d){return d.type});
+    rows.append("td").text(function(d){return d.floors});
+    rows.append("td").text(function(d){return d.year});
+
     </script>
       </head>
   
