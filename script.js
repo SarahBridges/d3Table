@@ -4,9 +4,6 @@ build["Young"] = {type: "science", floors: "four", year: "1970"};
 build["Crounse"] = {type: "history", floors: "four", year: "1967"};
 build["Grant"] = {type: "humanities", floors: "five", year: "1973"};
 
-var script = document.createElement("script");
-var body = document.getElementsByTagName("body")[0];
-body.appendChild(script);
 
 
     var table = d3.select("body").append("table");
