@@ -5,7 +5,7 @@ build["Crounse"] = {type: "history", floors: "four", year: "1967"};
 build["Grant"] = {type: "humanities", floors: "five", year: "1973"};
 
 var script = document.createElement("script");
-s.src="https://d3js.org/d3.v5.js";
+scirpt.src="https://d3js.org/d3.v5.js";
 var body = document.getElementsByTagName("body")[0];
 body.appendChild(script);
 
