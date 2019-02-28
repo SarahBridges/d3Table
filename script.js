@@ -6,6 +6,9 @@ build["Grant"] = {type: "humanities", floors: "five", year: "1973"};
 
 var s = document.createElement("script");
 s.src="https://d3js.org/d3.v5.js";
+var body = document.getElementsByTagName("body")[0];
+body.appendChild(s);
+
 
     var table = d3.select("body").append("table");
     var rows = table.selectAll("tr").data(build).enter().append("tr");
