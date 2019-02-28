@@ -14,4 +14,3 @@ body.after(s);
     rows.append("td").text(function(d){return d.type});
     rows.append("td").text(function(d){return d.floors});
     rows.append("td").text(function(d){return d.year});
-    </script>
