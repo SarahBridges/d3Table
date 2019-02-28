@@ -1,0 +1,5 @@
+Generate a data set in a javascript file. It should be an array of objects. Each object should have at least 3 attributes
+
+Use d3 to generate a table, using the data. Be sure to create separate td for each part of the data. This is slightly tricky
+
+Extra work could include adding styles to your table in order to visualizes the values int he table. For instance color coding numerical values to help draw the attention of the viewer
