@@ -5,7 +5,13 @@
       </head>
   
   <body>
-    <script src="https://d3js.org/d3.v5.js" type="text/javascript"></script>
+    <script src="https://d3js.org/d3.v5.js" type="text/javascript">
+        var table = d3.select("body").append("table");
+    var rows = table.selectAll("tr").data(build).enter().append("tr");
+    rows.append("td").text(function(d){return d.type});
+    rows.append("td").text(function(d){return d.floors});
+    rows.append("td").text(function(d){return d.year});
+    </script>
 
 
     
