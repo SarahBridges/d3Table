@@ -1,6 +1,6 @@
 var build = [];
 var Head = {name: "Name", type: "Curriculum", floors: "Floors", year: "Year Built"}
-var Olin = {name: "Olin" ,type: "Math", loors: "Three", year: "1986"};
+var Olin = {name: "Olin" ,type: "Math", floors: "Three", year: "1986"};
 var Young = {name: "Young", type: "Science", floors: "Four", year: "1970"};
 var Crounse = {name: "Crounse", type: "History", floors: "Four", year: "1967"};
 var Grant = {name: "Grant", type: "Humanities", floors: "Five", year: "1973"};
