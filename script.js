@@ -1,9 +1,9 @@
 var build = [];
 var Head = {name: "Name", type: "Curriculum", floors: "Floors", year: "Year Built"}
-var Olin = {name: "Olin" ,type: "math", floors: "three", year: "1986"};
-var Young = {name: "Young", type: "science", floors: "four", year: "1970"};
-var Crounse = {name: "Crounse", type: "history", floors: "four", year: "1967"};
-var Grant = {name: "Grant", type: "humanities", floors: "five", year: "1973"};
+var Olin = {name: "Olin" ,type: "Math", loors: "Three", year: "1986"};
+var Young = {name: "Young", type: "Science", floors: "Four", year: "1970"};
+var Crounse = {name: "Crounse", type: "History", floors: "Four", year: "1967"};
+var Grant = {name: "Grant", type: "Humanities", floors: "Five", year: "1973"};
 build.push(Head,Olin,Young,Crounse,Grant)
 
 
