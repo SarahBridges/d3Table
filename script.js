@@ -8,11 +8,11 @@ build.push(Head,Olin,Young,Crounse,Grant)
 
 
     var table = d3.select("body").append("table");
-    var rows = table.selectAll("tr")
+    var cols = table.selectAll("tr")
     .data(build)
     .enter()
     .append("tr");
-    rows.append("td").text(function(d){return d.name}).style("border","solid 5px black";)
-    rows.append("td").text(function(d){return d.type});
-    rows.append("td").text(function(d){return d.floors});
-    rows.append("td").text(function(d){return d.year});
+    cols.append("td").text(function(d){return d.name}).style("border","solid 5px black");
+    cols.append("td").text(function(d){return d.type});
+    cols.append("td").text(function(d){return d.floors});
+    cols.append("td").text(function(d){return d.year});
