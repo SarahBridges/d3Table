@@ -13,6 +13,15 @@ build.push(Head,Olin,Young,Crounse,Grant)
     .enter()
     .append("tr");
     cols.append("td").text(function(d){return d.name});
+    .style("background",function(d){
+        if (d.name == "Name"){return " #f2f2f2"}
+        if (d.name == "Olin"){return "#ADD8E6"}
+        if (d.name == "Young"){return "#6495ED"}
+        if (d.name == "Crounse"){return "#6A5ACD"}
+        if (d.name == "Grant"){return "#7B68EE"}
+
+
+      });
     cols.append("td").text(function(d){return d.type})
     .style("background",function(d){
         if (d.type == "Curriculum"){return " #f2f2f2"}
@@ -24,4 +33,9 @@ build.push(Head,Olin,Young,Crounse,Grant)
           if (d.floors == 5){return "#cc00ff"}
           else{return "#f2f2f2"}});
 
-    cols.append("td").text(function(d){return d.year});
+    cols.append("td").text(function(d){return d.year})
+              .style("background",function(d){
+              if (d.year < 1970){return "#ff6666"}
+              if (d.floors == 4){return "#6699ff"}
+              if (d.floors == 5){return "#cc00ff"}
+              else{return "#f2f2f2"}});
