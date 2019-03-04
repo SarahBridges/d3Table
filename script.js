@@ -21,6 +21,7 @@ build.push(Head,Olin,Young,Crounse,Grant)
       .style("background",function(d){
           if (d.floors == 3){return "#ff6666"}
           if (d.floors == 4){return "#6699ff"}
-          if (d.floors == 5){return "#cc00ff"}});
+          if (d.floors == 5){return "#cc00ff"}
+          else{return "gray"}});
 
     cols.append("td").text(function(d){return d.year});
