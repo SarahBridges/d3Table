@@ -14,11 +14,10 @@ build.push(Head,Olin,Young,Crounse,Grant)
     .append("tr");
     cols.append("td").text(function(d){return d.name});
     cols.append("td").text(function(d){return d.type});
-    cols.append("td").text(function(d){return d.floors
+    cols.append("td").text(function(d){return d.floors})
       .style("background",function(d){
-          if (d.floors == 3){return "blue"}
-          if (d.floors == 4){return "green"}
-          if (d.floors == 5){return "red"}});
-        });
+          if (d.floors == 3){return "#ff6666"}
+          if (d.floors == 4){return "#6699ff"}
+          if (d.floors == 5){return "#cc00ff"}});
 
     cols.append("td").text(function(d){return d.year});
