@@ -12,7 +12,7 @@ build.push(Head,Olin,Young,Crounse,Grant)
     .data(build)
     .enter()
     .append("tr");
-    rows.append("td").text(function(d){return d.name});
+    rows.append("td").text(function(d){return d.name}).style.border = "solid 5px black";
     rows.append("td").text(function(d){return d.type});
     rows.append("td").text(function(d){return d.floors});
     rows.append("td").text(function(d){return d.year});
