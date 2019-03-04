@@ -12,7 +12,7 @@ build.push(Head,Olin,Young,Crounse,Grant)
     .data(build)
     .enter()
     .append("tr");
-    cols.append("td").text(function(d){return d.name});
+    cols.append("td").text(function(d){return d.name})
     .style("background",function(d){
         if (d.name == "Name"){return " #f2f2f2"}
         if (d.name == "Olin"){return "#ADD8E6"}
