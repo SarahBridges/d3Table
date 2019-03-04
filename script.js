@@ -29,7 +29,7 @@ build.push(Head,Olin,Young,Crounse,Grant)
     cols.append("td").text(function(d){return d.floors})
       .style("background",function(d){
           if (d.floors == 3){return "#FFA07A"}
-          if (d.floors == 4){return "#FF75F50"}
+          if (d.floors == 4){return "#FF7F50"}
           if (d.floors == 5){return "#FF6347"}
           else{return "#f2f2f2"}});
 
