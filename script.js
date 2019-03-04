@@ -14,7 +14,9 @@ build.push(Head,Olin,Young,Crounse,Grant)
     .append("tr");
     cols.append("td").text(function(d){return d.name});
     cols.append("td").text(function(d){return d.type})
-    .style("background","yellow");
+    .style("background",function(d){
+        if (d.type == "Curriculum"){return "gray"}
+        else {return "yellow"};
     cols.append("td").text(function(d){return d.floors})
       .style("background",function(d){
           if (d.floors == 3){return "#ff6666"}
