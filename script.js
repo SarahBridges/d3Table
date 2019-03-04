@@ -15,9 +15,9 @@ build.push(Head,Olin,Young,Crounse,Grant)
     cols.append("td").text(function(d){return d.name});
     cols.append("td").text(function(d){return d.type});
     cols.append("td").text(function(d){return d.floors});
-      .style("background",function(d){
-          if (d.floors == 3){var color = "blue"}
-          if (d.floors == 4){var color = "green"}
-          if (d.floors == 5){var color = "red"});});
+      td.style("background",function(d){
+          if (d.floors == 3){return "blue"}
+          if (d.floors == 4){return "green"}
+          if (d.floors == 5){return"red"});
 
     cols.append("td").text(function(d){return d.year});
