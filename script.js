@@ -17,5 +17,6 @@ build.push(Head,Olin,Young,Crounse,Grant)
     cols.append("td").text(function(d){return d.floors;
     if (d.floors == 3){return td.style("background-color","blue");}
     if (d.floors == 4){return td.style("background-color","green");}
-    if (d.floors == 5)return td.style("background-color","red");};});
+    if (d.floors == 5){return td.style("background-color","red");};
+    });
     cols.append("td").text(function(d){return d.year});
