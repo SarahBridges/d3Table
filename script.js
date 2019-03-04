@@ -36,6 +36,8 @@ build.push(Head,Olin,Young,Crounse,Grant)
     cols.append("td").text(function(d){return d.year})
               .style("background",function(d){
               if (d.year == 1967){return "#DDA0DD"}
-              if (d.year == 1970||1973){return "#DA70D6"}
+              if (d.year == 1970){return "#DA70D6"}
+              if (d.year == 1973){return "#DA70D6"}
               if (d.year == 1986){return "#BA55D3"}
-              else{return "#f2f2f2"}});
+              if (d.year == "Year Built"){return "#f2f2f2"}
+            });
