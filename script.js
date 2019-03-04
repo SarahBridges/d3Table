@@ -15,13 +15,13 @@ build.push(Head,Olin,Young,Crounse,Grant)
     cols.append("td").text(function(d){return d.name});
     cols.append("td").text(function(d){return d.type})
     .style("background",function(d){
-        if (d.type == "Curriculum"){return "gray"}
+        if (d.type == "Curriculum"){return " #f2f2f2"}
         else {return "yellow"}});
     cols.append("td").text(function(d){return d.floors})
       .style("background",function(d){
           if (d.floors == 3){return "#ff6666"}
           if (d.floors == 4){return "#6699ff"}
           if (d.floors == 5){return "#cc00ff"}
-          else{return "gray"}});
+          else{return "#f2f2f2"}});
 
     cols.append("td").text(function(d){return d.year});
